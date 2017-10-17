@@ -69,7 +69,7 @@ public class Main {
         }
         else if(fifthquestion <5){
         }
-        System.out.println("Question 6: You are not easily distracted by what could be with your  "
+        System.out.println("Question 6: You are not easily distracted by what could be with your "
                             + "curiosity and imagination.");  
         sixthquestion = input.nextDouble(); 
         if(sixthquestion > 5){

@@ -27,23 +27,24 @@ public class Main {
 
         System.out.println("");
         System.out.println("Rate 0 as Never to 10 as Always on All Questions..."
-                + "\n\nQuestion 1: You do not mind answering an unknown "
-                + "phone call or knock on your front door at home. ");
+                + "\n\nQuestion 1: You have to answer a phone call or "
+                + "knock on your front door at home even if it is a stranger. ");
         firstquestion = input.nextDouble();  
         if(firstquestion > 5){ 
         }
         else if(firstquestion < 5){
         }
-        System.out.println("Question 2: You feel the need to talk to a stranger in "
-                + "the elevator or in line.");
+        System.out.println("Question 2: You are the first to speak to someone you do not know while "
+                + "waiting in an elevator or in a line.");
         secondquestion = input.nextDouble(); 
         if(secondquestion > 5){
         }
         else if(secondquestion <5){
         }
         System.out.println("Question 3: You would rather spend time with friends "
-                + "and family than hone a talent or watch TV.");  
+                + "and family than spend hours with a talent or hobbie by yourself.");  
         thirdquestion = input.nextDouble(); 
+        
         if(thirdquestion > 5){
         }
         else if(thirdquestion <5){
@@ -53,20 +54,22 @@ public class Main {
         firstletter = firstquestion+secondquestion+thirdquestion; 
 
 
-        System.out.println("Question 4: Your tend to focus on the real world "
-                           + "and its actual events.");
+        System.out.println("Question 4: You focus on the here and now of today and "
+                           + "find it unnessecary to make plans with either a few weeks or months ahead.");
         fourthquestion = input.nextDouble();  
         if(fourthquestion > 5){ 
         }
         else if(fourthquestion < 5){
         }
-        System.out.println("Question 5: You do not wander off easily to future possibilities. ");
+        System.out.println("Question 5: You do not need to look through all "
+                           + "of the possibilities and usually know what you want.");
+                            
         fifthquestion = input.nextDouble(); 
         if(fifthquestion > 5){
         }
         else if(fifthquestion <5){
         }
-        System.out.println("Question 6: Practicality and what is down to earth mean more to you than "
+        System.out.println("Question 6: You are not easily distracted by what could be with your  "
                             + "curiosity and imagination.");  
         sixthquestion = input.nextDouble(); 
         if(sixthquestion > 5){
@@ -103,7 +106,7 @@ public class Main {
 
 
         System.out.println("");
-        System.out.println("Question 10: You are always tidy and organized.");
+        System.out.println("Question 10: You think better if you are always tidy and organized.");
         tenthquestion = input.nextDouble();  
         if(tenthquestion > 5){ 
         }

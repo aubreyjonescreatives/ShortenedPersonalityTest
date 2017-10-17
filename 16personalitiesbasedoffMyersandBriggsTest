@@ -1,0 +1,170 @@
+package pkg16personalities;
+
+import java.util.Scanner; 
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        String answer;  
+        boolean answer1 = true;
+        boolean answer2 = false; 
+        double firstquestion, secondquestion, thirdquestion, fourthquestion; 
+        double fifthquestion, sixthquestion, seventhquestion, eighthquestion; 
+        double ninethquestion, tenthquestion, eleventhquestion, twelfthquestion;  
+        double firstletter, secondletter, thirdletter, fourthletter; 
+
+       
+        java.util.Scanner input = new java.util.Scanner(System.in);
+    
+        System.out.println("16 Personalities Theory Condensed Quiz Based off C. Jung and Isabel Briggs-Myers 16 Personalities Test");
+        System.out.println("        p.s. There are No Errored Ratings...!"
+                + "\n\n Would You Like to Take the Quiz??? "
+                + "\n Answer True or False.");   
+        answer1 = input.nextBoolean(); 
+        if(answer1){
+            System.out.println("\nLet's Begin!"); 
+
+        System.out.println("");
+        System.out.println("Rate 0 as Never to 10 as Always on All Questions..."
+                + "\n\nQuestion 1: You do not mind answering an unknown "
+                + "phone call or knock on your front door at home. ");
+        firstquestion = input.nextDouble();  
+        if(firstquestion > 5){ 
+        }
+        else if(firstquestion < 5){
+        }
+        System.out.println("Question 2: You feel the need to talk to a stranger in "
+                + "the elevator or in line.");
+        secondquestion = input.nextDouble(); 
+        if(secondquestion > 5){
+        }
+        else if(secondquestion <5){
+        }
+        System.out.println("Question 3: You would rather spend time with friends "
+                + "and family than hone a talent or watch TV.");  
+        thirdquestion = input.nextDouble(); 
+        if(thirdquestion > 5){
+        }
+        else if(thirdquestion <5){
+        }
+        
+
+        firstletter = firstquestion+secondquestion+thirdquestion; 
+
+
+        System.out.println("Question 4: Your tend to focus on the real world "
+                           + "and its actual events.");
+        fourthquestion = input.nextDouble();  
+        if(fourthquestion > 5){ 
+        }
+        else if(fourthquestion < 5){
+        }
+        System.out.println("Question 5: You do not wander off easily to future possibilities. ");
+        fifthquestion = input.nextDouble(); 
+        if(fifthquestion > 5){
+        }
+        else if(fifthquestion <5){
+        }
+        System.out.println("Question 6: Practicality and what is down to earth mean more to you than "
+                            + "curiosity and imagination.");  
+        sixthquestion = input.nextDouble(); 
+        if(sixthquestion > 5){
+        }
+        else if(sixthquestion <5){
+        }
+
+        secondletter = fourthquestion+fifthquestion+sixthquestion; 
+
+        
+        System.out.println("");
+        System.out.println("Question 7: Your mood does not change quickly.");
+        seventhquestion = input.nextDouble();  
+        if(seventhquestion > 5){ 
+        }
+        else if(seventhquestion < 5){
+        }
+        System.out.println("Question 8: If you have to choose between being honest and hurting"
+                            + "\n someone's feelings, it is better to be honest.");
+        eighthquestion = input.nextDouble(); 
+        if(eighthquestion > 5){
+        }
+        else if(eighthquestion <5){
+        }
+        System.out.println("Question 9: It is easier for you to make choices off logic than "
+                            + "your emotions.");  
+        ninethquestion = input.nextDouble(); 
+        if(ninethquestion > 5){
+        }
+        else if(ninethquestion <5){
+        }
+
+        thirdletter = seventhquestion+eighthquestion+ninethquestion; 
+
+
+        System.out.println("");
+        System.out.println("Question 10: You are always tidy and organized.");
+        tenthquestion = input.nextDouble();  
+        if(tenthquestion > 5){ 
+        }
+        else if(tenthquestion < 5){
+        }
+        System.out.println("Question 11: It irritates you if you or others are not "
+                            + "on time to appointments.");
+        eleventhquestion = input.nextDouble(); 
+        if(eleventhquestion > 5){
+        }
+        else if(eleventhquestion <5){
+        }
+        System.out.println("Question 12: Your plans are usually well thought out in advance.");  
+        twelfthquestion = input.nextDouble(); 
+        if(twelfthquestion > 5){
+        }
+        else if(twelfthquestion <5){
+        }
+
+        fourthletter = tenthquestion+eleventhquestion+twelfthquestion; 
+
+ 
+        System.out.println("");
+        System.out.println("Congratulations! \nYour Personality is:  ");
+
+        if (firstletter > 15){
+        System.out.print("E");
+        }
+        else if (firstletter < 15){
+        System.out.print("I");
+        }
+        
+        if (secondletter > 15){
+        System.out.print("S");
+        }
+        else if (secondletter < 15){
+        System.out.print("N");
+        }
+        
+        if (thirdletter > 15){
+        System.out.print("T");
+        }
+        else if (thirdletter < 15){
+        System.out.print("F");
+        }
+        
+        if (fourthletter > 15){
+        System.out.println("J");
+        }
+        else if (fourthletter < 15){
+        System.out.println("P");
+        }
+        
+        }
+        
+        
+        else{
+        System.out.println("Maybe Another Time.");
+        }  
+        
+    }
+    }
+    
+
